@@ -34,7 +34,6 @@ ERD:
 > могут ли поля быть пустыми или нет (использовать команду CREATE TABLE).
 
 ```postgresql
-BEGIN;
 create database customer_and_transaction;
 
 create table if not exists Customer (
@@ -149,7 +148,6 @@ alter table products add foreign key  (product_line_id) references product_line 
 alter table products add foreign key  (product_class_id) references product_class (id)
 
 alter table products add foreign key  (product_size_id) references product_size (id)
-COMMIT;
 ```
 
 ### Задание 4
@@ -157,7 +155,6 @@ COMMIT;
 > (использовать команду INSERT INTO или загрузить файлы, используя возможности инструмента DBeaver; 
 > в случае загрузки файлами приложить скрины, что данные действительно были залиты).
 ```postgresql
-BEGIN;
 insert into job_industry_category (id, name) values 
 (1, 'Health'),
 (2, 'Financial Services'),
@@ -226,7 +223,6 @@ insert into transactions values
 (1, 2, 1, '2017-02-25', FALSE, 1),
 (2, 3, 2, '2017-05-21', TRUE, 1),
 (3, 37, 3, '2017-10-16', FALSE, 1);
-COMMIT;
 ```
 
 ![address.jpg](images/address.jpg)
