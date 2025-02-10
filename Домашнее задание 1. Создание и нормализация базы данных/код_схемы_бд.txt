@@ -1,0 +1,112 @@
+Table Customer {
+  id integer [primary key]
+  first_name varchar
+  last_name varchar
+  gender varchar
+  DOB date
+  job_title varchar
+  job_industry_category_id integer
+  wealth_segment_id integer
+  deceased_indicator boolean
+  owns_car boolean
+  address_id integer
+}
+
+Table job_industry_category {
+  id integer [primary key]
+  name varchar
+}
+
+Table wealth_segment {
+  id integer [primary key]
+  name varchar
+}
+
+Table address {
+  id integer [primary key]
+  addres varchar
+  postcode integer
+  state_id integer
+  country_id integer
+  property_valuation integer
+}
+
+Table state {
+  id integer [primary key]
+  name varchar
+}
+
+Table country {
+  id integer [primary key]
+  name varchar
+}
+
+Table Transactions {
+  id integer [primary key]
+  product_id integer
+  customer_id integer
+  created_at timestamp
+  transaction_date date
+  online_order boolean
+  order_status_id integer
+}
+
+Table order_status {
+  id integer [primary key]
+  name varchar
+}
+
+Table Products {
+  id integer [primary key]
+  brand_id integer
+  product_line_id integer
+  product_class_id integer
+  product_size_id integer
+  list_price decimal
+  standard_cost decimal
+}
+
+Table brand {
+  id integer [primary key]
+  name varchar
+}
+
+Table product_line {
+  id integer [primary key]
+  name varchar
+}
+
+Table product_class {
+  id integer [primary key]
+  name varchar
+}
+
+Table product_size {
+  id integer [primary key]
+  name varchar
+}
+
+Ref: job_industry_category.id < Customer.job_industry_category_id 
+
+Ref: wealth_segment.id < Customer.wealth_segment_id 
+
+Ref: address.id < Customer.address_id 
+
+Ref: state.id < address.state_id 
+
+Ref: country.id < address.country_id 
+
+Ref: Customer.id < Transactions.customer_id 
+
+Ref: order_status.id < Transactions.order_status_id 
+
+Ref: Products.id < Transactions.product_id 
+
+Ref: brand.id < Products.brand_id 
+
+Ref: product_line.id < Products.product_line_id
+
+Ref: product_class.id < Products.product_class_id
+
+Ref: product_size.id < Products.product_size_id
+
