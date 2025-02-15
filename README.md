@@ -10,4 +10,5 @@
 ## Оглавление  
 
 [1. Домашнее задание 1. Создание и нормализация базы данных](https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/tree/master/Домашнее%20задание%201.%20Создание%20и%20нормализация%20базы%20данных)
+
 [2. Домашнее задание 2. Основные операторы PostgreSQL](https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/tree/master/Домашнее%20задание%202.%20Основные%20операторы%20PostgreSQL)
