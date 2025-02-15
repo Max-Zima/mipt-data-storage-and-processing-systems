@@ -75,7 +75,7 @@ where standard_cost > 1500;
 
 **Результат:**
 
-![Task_1.JPG](images/Task_1.JPG)
+![Task_1.jpg](images/Task_1.jpg)
 
 ### Задание 2:
 
@@ -90,7 +90,7 @@ and transaction_date::date between '2017-04-01' and '2017-04-09';
 
 **Результат:**
 
-![Task_2.JPG](images/Task_2.JPG)
+![Task_2.jpg](images/Task_2.jpg)
 
 ### Задание 3:
 
@@ -104,7 +104,7 @@ where job_industry_category in ('IT', 'Financial Services') and job_title like '
 
 **Результат:**
 
-![Task_3.JPG](images/Task_3.JPG)
+![Task_3.jpg](images/Task_3.jpg)
 
 ### Задание 4:
 
@@ -119,7 +119,7 @@ where customer_20240101.job_industry_category = 'Financial Services' and transac
 
 **Результат:**
 
-![Task_4.JPG](images/Task_4.JPG)
+![Task_4.jpg](images/Task_4.jpg)
 
 
 ### Задание 5:
@@ -137,7 +137,7 @@ limit 10;
 
 **Результат:**
 
-![Task_5.JPG](images/Task_5.JPG)
+![Task_5.jpg](images/Task_5.jpg)
 
 
 ### Задание 6:
@@ -158,7 +158,7 @@ where t.customer_id is null;
 
 **Результат:**
 
-![Task_6.JPG](images/Task_6.JPG)
+![Task_6.jpg](images/Task_6.jpg)
 
 
 ### Задание 7:
@@ -184,7 +184,7 @@ and t.standard_cost = (select max(t2.standard_cost) from transaction_20240101 t2
 
 **Результат:**
 
-![Task_7.JPG](images/Task_7.JPG)
+![Task_7.jpg](images/Task_7.jpg)
 
 
 ### Задание 8:
@@ -202,4 +202,4 @@ inner join transaction_20240101 t on c.customer_id = t.customer_id
 where c.job_industry_category in ('IT', 'Health')
 and t.order_status = 'Approved' 
 and t.transaction_date::date BETWEEN '2017-07-07' and '2017-07-17';
-![Task_8.JPG](images/Task_8.JPG)
+![Task_8.jpg](images/Task_8.jpg)
