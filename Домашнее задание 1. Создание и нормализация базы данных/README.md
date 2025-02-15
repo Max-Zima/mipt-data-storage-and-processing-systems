@@ -3,7 +3,7 @@
 ### Тема домашней работы: Создание и нормализация базы данных.
 ### Цель домашней работы: Научиться создавать базы данных и нормализовать их. 
 ### Формулировка задания: 
-Дан файл с данными по клиентам и транзакциям: (customer_and_transaction.xlsx)[https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/blob/master/Домашнее%20задание%201.%20Создание%20и%20нормализация%20базы%20данных/customer_and_transaction.xlsx]
+Дан файл с данными по клиентам и транзакциям: [customer_and_transaction.xlsx](https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/blob/master/Домашнее%20задание%201.%20Создание%20и%20нормализация%20базы%20данных/customer_and_transaction.xlsx)
 
 Необходимо выполнить следующие пункты:  
 * Продумать структуру базы данных и отрисовать в [редакторе](https://dbdiagram.io/home?utm_source=holistics&utm_medium=top_5_tools_blog).  
