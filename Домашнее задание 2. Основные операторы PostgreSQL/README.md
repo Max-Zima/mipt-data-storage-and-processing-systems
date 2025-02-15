@@ -8,6 +8,7 @@
 1. Создать таблицы со следующими структурами и загрузить данные из csv-файлов. Детали приведены ниже.
    ![BD.png](images/BD.png)
   Описание таблицы customer:
+
 | Поле | Описание |
 | --------------- | ---------------- |
 | customer_id |	id клиента |
@@ -25,3 +26,9 @@
 | state |	штаты |
 | country |	страна проживания |
 | property_valuation | оценка имущества| 
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
