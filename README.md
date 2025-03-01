@@ -12,3 +12,5 @@
 [1. Домашнее задание 1. Создание и нормализация базы данных](https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/tree/master/Домашнее%20задание%201.%20Создание%20и%20нормализация%20базы%20данных)
 
 [2. Домашнее задание 2. Основные операторы PostgreSQL](https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/tree/master/Домашнее%20задание%202.%20Основные%20операторы%20PostgreSQL)
+
+[3. Домашнее задание 3. Группировка данных и оконные функции](https://github.com/Max-Zima/mipt-data-storage-and-processing-systems/tree/master/Домащнее%20задание%203.%20Группировка%20данных%20и%20оконные%20функции)
